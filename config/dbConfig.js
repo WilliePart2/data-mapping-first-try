@@ -1,0 +1,16 @@
+module.exports = {
+  USE_NEW_USER_PARSER: true,
+  USE_CREATE_INDEX: true,
+  USE_FIND_AND_MODIFY: true,
+  AUTO_INDEX: true,
+  RECONNECT_TRIES: Number.MAX_VALUE,
+  RECONNECT_INTERVAL: 500,
+  CONNECT_TIMEOUT_MS: 15000,
+  SOCKET_TIMEOUT_MS: 45000,
+  POOL_SIZE: 10,
+  KEEP_ALIVE: true,
+
+  DB_HOST: 'localhost',
+  DB_PORT: 27017,
+  DB_NAME: 'taskManager'
+};
